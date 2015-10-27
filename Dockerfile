@@ -1,5 +1,5 @@
 FROM rosenhouse/phantomjs2
-MAINTAINER Vladimir Makhaev <vmakhaev@gmailcom>
+MAINTAINER Vladimir Makhaev <vmakhaev@gmail.com>
 
 ENV buildDependencies curl
 
