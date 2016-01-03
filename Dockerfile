@@ -6,7 +6,7 @@ ENV buildDependencies curl
 RUN \
   apt-get update && \
   apt-get install -yqq ${buildDependencies} && \
-  curl --silent --location https://deb.nodesource.com/setup_4.x | bash - && \
+  curl --silent --location https://deb.nodesource.com/setup_5.x | bash - && \
   apt-get install -yqq nodejs && \
   apt-get purge -yqq ${buildDependencies} && \
   apt-get autoremove -yqq && \
